@@ -1,36 +1,20 @@
-# Build a nested HoH of the classification of biological life on Earth based
-# on these commented-out snippets assigned to PORTION_1-PORTION_4. Return
-# that HoH as the return value for the method "naming_system."
-#
-# The tests will guide your construction.
-#
+def naming_system
+#     label: "Genus",	         {
+#   }	          label: "Kingdom",
+# }	          sub_category: {
+# 	            label: "Phylum",
+# PORTION_4 = {	            sub_category: {
+#   label: "Species",	              label: "Class",
+#   sub_category: nil	              sub_category:{
+# }	                label: "Order",
 
-
-# 
-# PORTION_2 = {
-#   label: "Order"
-# }
-# 
-# PORTION_3 = {
-#   label: "Family",
-#   sub_category: {
-#     label: "Genus",
-#   }
-# }
-# 
-# PORTION_4 = {
-#   label: "Species",
-#   sub_category: nil
-# }
-
-life_hash = { 
-  Kingdom=>
-  #   Phylum
-  #   Class
-  #   Order
-  #   Family
-  #   Genus
-  #   Species
+                sub_category: { 
+def naming_system	                  label: "Family",
+                  sub_category: {
+                    label: "Genus",
+                    sub_category: {
+                      label: "Species",
+                      sub_category: nil } } } } } } }
 
 def naming_system
   # Remember:
