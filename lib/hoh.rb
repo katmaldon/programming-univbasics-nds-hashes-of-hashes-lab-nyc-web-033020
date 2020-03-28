@@ -1,18 +1,4 @@
-def naming_system
-#     label: "Genus",	         {
-#   }	          label: "Kingdom",
-# }	          sub_category: {
-# 	            label: "Phylum",
-# PORTION_4 = {	            sub_category: {
-#   label: "Species",	              label: "Class",
-#   sub_category: nil	            l: "Order",
-                sub_category: { 
-                  label: "Family",
-                  sub_category: {
-                    label: "Genus",
-                    sub_category: {
-                      label: "Species",
-                      sub_category: nil } } } } } } }
+hoh = {
 
 def naming_system
   # Remember:
