@@ -5,11 +5,9 @@ def naming_system
 # 	            label: "Phylum",
 # PORTION_4 = {	            sub_category: {
 #   label: "Species",	              label: "Class",
-#   sub_category: nil	              sub_category:{
-# }	                label: "Order",
-
+#   sub_category: nil	            l: "Order",
                 sub_category: { 
-def naming_system	                  label: "Family",
+                  label: "Family",
                   sub_category: {
                     label: "Genus",
                     sub_category: {
